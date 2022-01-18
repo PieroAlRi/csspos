@@ -6,25 +6,51 @@
             Div y span
         </title>
         <style>
-            div, span{
+            .uno {
                 height: 100px;
                 width: 100px;
                 border: 1px black solid;
                 position: relative;
-                top: 200px;
-                left: 200px;
+                top: 100px;
+                left: 100px;
+            }
+            .dos {
+                height: 25px;
+                width: 25px;
+                border: 1px black solid;
+                position: relative;
+                top: 25px;
+                left: 25px;
+            }
+            div {
+                height: 25px;
+                width: 25px;
+                border: 1px black solid;
+            }
         </style>
     </head>
     <body>
+        <!--<span>A</span>
         <span>A</span>
+        <span>A</span>-->
+        <div class="uno">A</div>
+        <div class="uno">
+            <div class="dos"></div>
+        </div>
+        <div class="uno">A</div>
+        <div class="dos"></div>
+        <!--<span>A</span>
         <span>A</span>
-        <span>A</span>
-        <div>A</div>
-        <div>A</div>
-        <div>A</div>
-        <span>A</span>
-        <span>A</span>
-        <span>A</span>
+        <span>A</span>-->
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <p>El position relative en si necesita parámetros para que pueda desplazarse, en este caso se usa el top y el left</p>
     </body>
 </html>
